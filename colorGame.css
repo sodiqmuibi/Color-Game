@@ -1,0 +1,63 @@
+body {
+	background-color: #232323;
+	font-family: "arial";
+	margin: 0;
+}
+.squares {
+	background-color: purple;
+	padding-top: 30%;
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.4s;
+}
+#container {
+	margin: 0 auto;
+	max-width: 600px;
+	margin-top: 30px;
+}
+h1 {
+	color: white;
+	background: steelblue;
+	text-align: center;
+	font-weight:  normal;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	text-transform: uppercase;
+}
+.hold {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+.selected {
+	color: white;
+	background: steelblue;
+}
+#message {
+	text-transform: uppercase;
+	font-size: 200%;
+}
+#Display {
+	display: inline-block;
+	width: 20%;
+}
+button {
+	color: steelblue;
+	border: none;
+	height: : 100%;
+	background: none;
+	font-size: inherit;
+	padding-top: 5px;
+	text-transform: uppercase;
+	transition: all 0.4s;
+}
+button:hover {
+	color: white;
+	background: steelblue;
+}
